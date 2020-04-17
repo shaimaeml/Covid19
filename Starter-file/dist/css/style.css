@@ -1,0 +1,114 @@
+.header {
+  margin-bottom: 2em; }
+  .header__nav {
+    background: url(../../../Design/Assets/png/Merged-bar-1.png);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em; }
+    @media screen and (min-width: 1200px) {
+      .header__nav {
+        padding: 1em; } }
+    .header__nav__links {
+      display: flex;
+      list-style-type: none;
+      align-items: center; }
+      .header__nav__links li {
+        margin: 0 10px; }
+      .header__nav__links a {
+        text-decoration: none;
+        font-weight: 700; }
+      .header__nav__links__advice {
+        color: black; }
+      .header__nav__links__home {
+        color: #1078ad; }
+      .header__nav__links__button {
+        color: white;
+        border: 1px solid #1078ad;
+        background: url(../../../Design/Assets/png/language.png) center right no-repeat;
+        padding: 0.5em 1.5em 0.5em 1em;
+        background-size: 20%;
+        border-radius: 1em; }
+  .header__info {
+    background-color: #f4cf1b;
+    text-align: center;
+    padding: 0.5em; }
+    .header__info h3 {
+      color: #1078ad;
+      margin: 0.2em; }
+    .header__info p {
+      padding: 0 2.7em;
+      font-weight: 700;
+      line-height: 2.2em;
+      font-size: 0.8em;
+      max-width: 600px;
+      margin: 0 auto; }
+
+.test {
+  text-align: center; }
+  @media screen and (min-width: 1200px) {
+    .test {
+      display: flex;
+      justify-content: space-around; } }
+  @media screen and (min-width: 1200px) {
+    .test__doctors {
+      width: 40%; } }
+  @media screen and (min-width: 1200px) {
+    .test__article {
+      width: 42%; } }
+  .test h3 {
+    font-weight: 700;
+    color: #1078ad;
+    padding: 1em 2em;
+    line-height: 1.5em; }
+  .test p {
+    padding: 1em 2em;
+    color: #7f7f7f;
+    font-size: 0.9em;
+    line-height: 1.5em; }
+  .test button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border: 1px solid #1078ad;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    width: 60%;
+    max-width: 600px;
+    background: url(../../../Design/Assets/png/demarrer.png);
+    margin: 1em auto; }
+
+.symptomes {
+  text-align: center; }
+  .symptomes h3 {
+    color: #1078ad;
+    padding: 1em 6em; }
+  .symptomes__images img {
+    width: 50px;
+    height: 70px; }
+  .symptomes__images .fievre {
+    width: 35px;
+    height: 90px; }
+  .symptomes__images__row {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5em 0; }
+    @media screen and (min-width: 1200px) {
+      .symptomes__images__row {
+        justify-content: center;
+        padding: 1em 8em; } }
+    .symptomes__images__row div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 40%; }
+      .symptomes__images__row div span {
+        padding: 1.5em 2em;
+        font-weight: 600; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat; }
